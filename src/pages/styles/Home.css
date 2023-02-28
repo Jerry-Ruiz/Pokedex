@@ -1,0 +1,89 @@
+.home__section {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home__img {
+  margin-bottom: 20px;
+}
+
+.home__hello {
+  color: red;
+  font-size: 25px;
+}
+
+.home__start {
+  margin: 0;
+}
+
+.home__form {
+  padding: 10px;
+}
+
+.home__input {
+  margin: 10px;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 5px 0 grey;
+}
+
+.home__btn {
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px 5px 0 grey;
+}
+
+.home__red {
+  height: 50px;
+  background-color: #dd1a1a;
+  position: relative;
+}
+
+.home__black {
+  height: 50px;
+  background-color: #0c0c0c;
+  position: relative;
+}
+
+.home__black-boll {
+  position: relative;
+  left: 125px;
+  top: -40px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 10px solid #0c0c0c;
+  width: 90px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.home__black-boll::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: rgba(33, 33, 33, 1);
+  border: 10px solid #0c0c0c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home__bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
